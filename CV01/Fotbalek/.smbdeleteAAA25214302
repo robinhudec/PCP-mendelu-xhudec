@@ -1,0 +1,13 @@
+//
+//  Game.hpp
+//  Fotbalek
+//
+//  Created by Robin Hudec on 22.09.2026.
+//
+
+#ifndef Game_hpp
+#define Game_hpp
+
+#include <stdio.h>
+class Game
+#endif /* Game_hpp */
