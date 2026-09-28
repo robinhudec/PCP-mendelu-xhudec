@@ -9,6 +9,7 @@
 #include "Game.hpp"
 
 int main(int argc, const char * argv[]) {
+    //Hodi se pouzivat popisne identifikatory. Lepsi citelnost a porozumitelnost kodu.
     Game g;
     g.play();
     return EXIT_SUCCESS;
