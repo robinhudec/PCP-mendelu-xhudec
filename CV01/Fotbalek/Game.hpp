@@ -13,6 +13,7 @@
 
 #include "Dictionary.hpp"
 class Game{
+//Hodilo by se pouzivat popisne identifikatory - ne d, ale napr. aspon dict nebo jeste lepe dictonary
     Dictionary d;
     std::vector<std::string> usedWords = {};
     bool wasWordAlreadyUsed(std::string word) ;
