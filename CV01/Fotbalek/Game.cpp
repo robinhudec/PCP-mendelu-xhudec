@@ -32,8 +32,12 @@ bool Game::wasWordAlreadyUsed(std::string word) {
     return not (std::ranges::find(usedWords, word) == usedWords.end());
 }
 
+// Prilis komplexni metoda, chtela by rozdhodit do vice pomocnych metod.
+
 void Game::play() {
-    // i dont know how to pick a random word without using a library, so the first word is set manually
+    // i dont know how to pick a random word without using a library, so the first word is set manually 
+    // Co tak je mit v konstantnim poli/kolekci a vybrat pomoci v konstruktoru inicializovaneho generatoru nahodnych cisel?
+    
     std::string currentWord = "cesta";
     int index = 0;
     usedWords.emplace_back("cesta");
