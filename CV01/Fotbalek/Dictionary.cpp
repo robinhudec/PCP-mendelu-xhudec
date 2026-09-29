@@ -10,7 +10,7 @@
 
 //returns true if the last letter of prevWord is the same as the firstLetter of followingWord
 bool Dictionary::follows(std::string prevWord, std::string followingWord){
-   /*Nedaji se nasledujici 2 radky napsat jako return prevWord.ends_with(followingWord); ?
+   /*Nedaji se nasledujici 2 radky napsat jako return prevWord.ends_with(followingWord); ?*/
     if (prevWord.ends_with(followingWord[0])) return true;
     return false;
 }
